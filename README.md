@@ -1,1 +1,2 @@
 # reporter
+Reporter is an api I have develped to send any automated reports on behalf of me with a link that displayes my prepared nice looking report in MD format in the web. People can just click the link present in the email and view My report.

@@ -1,0 +1,36 @@
+{
+  "name": "reporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:production": "node index.js",
+    "start:development": "env-cmd -f ./.env.development nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RiadHossain43/reporter.git"
+  },
+  "author": "Riad Hossain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RiadHossain43/reporter/issues"
+  },
+  "homepage": "https://github.com/RiadHossain43/reporter#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-useragent": "^1.0.15",
+    "mongoose": "^6.1.1",
+    "nodemailer": "^6.7.2",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "xoauth2": "^1.2.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
